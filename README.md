@@ -17,7 +17,7 @@ PHPプログラムを実行するためのシンプルなDocker定義です。
 作成したプログラムを実行する場合は以下のコマンドを実行するだけOKです。
 ```
 >cd cli
->docker-compose run php sum.php 1 2
+>docker-compose run php php sum.php 1 2
 >3
 ```
 
