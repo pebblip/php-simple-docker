@@ -32,7 +32,7 @@ PHPプログラムを実行するためのシンプルなDocker定義です。
 まずはWebサーバとしてPHPコンテナを起動します。以下のコマンドを実行すればOK。
 ```
 >cd web
->docker-compose compose up -d
+>docker-compose up -d
 ```
 コンテナが立ち上がれば、ブラウザで以下のようにPHPを呼び出してみましょう。
 ```
